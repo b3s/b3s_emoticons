@@ -1,0 +1,107 @@
+[
+    {
+        "name": "ziggy/big-smile",
+        "format": "gif",
+        "aliases": ["big-smile"]
+    },
+    {
+        "name": "ziggy/blank-stare",
+        "format": "gif",
+        "aliases": ["blank-stare"]
+    },
+    {
+        "name": "ziggy/blushing",
+        "format": "gif",
+        "aliases": ["blushing"]
+    },
+    {
+        "name": "ziggy/butthurt",
+        "format": "gif",
+        "aliases": ["butthurt"]
+    },
+    {
+        "name": "ziggy/crying",
+        "format": "gif",
+        "aliases": ["crying"]
+    },
+    {
+        "name": "ziggy/deal-with-it",
+        "format": "gif",
+        "aliases": ["deal-with-it"]
+    },
+    {
+        "name": "ziggy/doh",
+        "format": "gif",
+        "aliases": ["doh"]
+    },
+    {
+        "name": "ziggy/evil",
+        "format": "gif",
+        "aliases": ["evil"]
+    },
+    {
+        "name": "ziggy/eye-roll",
+        "format": "gif",
+        "aliases": ["eye-roll"]
+    },
+    {
+        "name": "ziggy/fml",
+        "format": "gif",
+        "aliases": ["fml"]
+    },
+    {
+        "name": "ziggy/good",
+        "format": "gif",
+        "aliases": ["good"]
+    },
+    {
+        "name": "ziggy/kisses",
+        "format": "gif",
+        "aliases": ["kisses"]
+    },
+    {
+        "name": "ziggy/licking-lips",
+        "format": "gif",
+        "aliases": ["licking-lips"]
+    },
+    {
+        "name": "ziggy/mad",
+        "format": "gif",
+        "aliases": ["mad"]
+    },
+    {
+        "name": "ziggy/nerd",
+        "format": "gif",
+        "aliases": ["nerd"]
+    },
+    {
+        "name": "ziggy/sad",
+        "format": "gif",
+        "aliases": ["sad"]
+    },
+    {
+        "name": "ziggy/tongue-out",
+        "format": "gif",
+        "aliases": ["tongue-out"]
+    },
+    {
+        "name": "ziggy/toothy-smile",
+        "format": "gif",
+        "aliases": ["toothy-smile"]
+    },
+    {
+        "name": "ziggy/upso",
+        "format": "gif",
+        "aliases": ["upso"]
+    },
+    {
+        "name": "ziggy/warm-smile",
+        "format": "gif",
+        "aliases": ["warm-smile"]
+    },
+    {
+        "name": "ziggy/ziggy",
+        "format": "gif",
+        "aliases": ["ziggy"]
+    }
+]
