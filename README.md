@@ -1,31 +1,16 @@
-# B3sEmoticons
+# B3S Emoticons
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'b3s_emoticons'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install b3s_emoticons
-
-## Usage
-
-TODO: Write usage instructions here
+Custom Sugar emoticons for B3S
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/b3s_emoticons/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1) Fork this project
+
+2) Find a name for your emoticon. Verify that it's not taken by trying
+:your-name:, or consulting the [cheat sheet](http://www.emoji-cheat-sheet.com).
+
+3) Add the image to `app/assets/images/emoji`. 64x64 px PNG preferred.
+
+4) Update `db/b3s_emoticons.json` and tell it about your new file.
+
+5) Send a pull request!
