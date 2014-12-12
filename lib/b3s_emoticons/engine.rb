@@ -7,11 +7,11 @@ module B3sEmoticons
 
       emojis.each do |emoji|
         Emoji.create(emoji.fetch("name")) do |char|
-          if emoji.fetch("aliases")
+          if emoji.has_key?("aliases")
             emoji.fetch("aliases").map { |a| char.add_alias a }
           end
-          if emoji.fetch("format")
-            char.set_format emoji.fetch("format")
+          if emoji.has_key?("image_filename")
+            char.image_filename = emoji.fetch("image_filename")
           end
         end
       end

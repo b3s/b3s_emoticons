@@ -1,107 +1,86 @@
 [
     {
-        "name": "ziggy/big-smile",
-        "format": "gif",
-        "aliases": ["big-smile"]
+        "name": "big-smile",
+        "image_filename": "ziggy/big-smile.gif"
     },
     {
-        "name": "ziggy/blank-stare",
-        "format": "gif",
-        "aliases": ["blank-stare"]
+        "name": "blank-stare",
+        "image_filename": "ziggy/blank-stare.gif"
     },
     {
-        "name": "ziggy/blushing",
-        "format": "gif",
-        "aliases": ["blushing"]
+        "name": "blushing",
+        "image_filename": "ziggy/blushing.gif"
     },
     {
-        "name": "ziggy/butthurt",
-        "format": "gif",
-        "aliases": ["butthurt"]
+        "name": "butthurt",
+        "image_filename": "ziggy/butthurt.gif"
     },
     {
-        "name": "ziggy/crying",
-        "format": "gif",
-        "aliases": ["crying"]
+        "name": "crying",
+        "image_filename": "ziggy/crying.gif"
     },
     {
-        "name": "ziggy/deal-with-it",
-        "format": "gif",
-        "aliases": ["deal-with-it"]
+        "name": "deal-with-it",
+        "image_filename": "ziggy/deal-with-it.gif"
     },
     {
-        "name": "ziggy/doh",
-        "format": "gif",
-        "aliases": ["doh"]
+        "name": "doh",
+        "image_filename": "ziggy/doh.gif"
     },
     {
-        "name": "ziggy/evil",
-        "format": "gif",
-        "aliases": ["evil"]
+        "name": "evil",
+        "image_filename": "ziggy/evil.gif"
     },
     {
-        "name": "ziggy/eye-roll",
-        "format": "gif",
-        "aliases": ["eye-roll"]
+        "name": "eye-roll",
+        "image_filename": "ziggy/eye-roll.gif"
     },
     {
-        "name": "ziggy/fml",
-        "format": "gif",
-        "aliases": ["fml"]
+        "name": "fml",
+        "image_filename": "ziggy/fml.gif"
     },
     {
-        "name": "ziggy/good",
-        "format": "gif",
-        "aliases": ["good"]
+        "name": "good",
+        "image_filename": "ziggy/good.gif"
     },
     {
-        "name": "ziggy/kisses",
-        "format": "gif",
-        "aliases": ["kisses"]
+        "name": "kisses",
+        "image_filename": "ziggy/kisses.gif"
     },
     {
-        "name": "ziggy/licking-lips",
-        "format": "gif",
-        "aliases": ["licking-lips"]
+        "name": "licking-lips",
+        "image_filename": "ziggy/licking-lips.gif"
     },
     {
-        "name": "ziggy/mad",
-        "format": "gif",
-        "aliases": ["mad"]
+        "name": "mad",
+        "image_filename": "ziggy/mad.gif"
     },
     {
-        "name": "ziggy/nerd",
-        "format": "gif",
-        "aliases": ["nerd"]
+        "name": "nerd",
+        "image_filename": "ziggy/nerd.gif"
     },
     {
-        "name": "ziggy/sad",
-        "format": "gif",
-        "aliases": ["sad"]
+        "name": "sad",
+        "image_filename": "ziggy/sad.gif"
     },
     {
-        "name": "ziggy/tongue-out",
-        "format": "gif",
-        "aliases": ["tongue-out"]
+        "name": "tongue-out",
+        "image_filename": "ziggy/tongue-out.gif"
     },
     {
-        "name": "ziggy/toothy-smile",
-        "format": "gif",
-        "aliases": ["toothy-smile"]
+        "name": "toothy-smile",
+        "image_filename": "ziggy/toothy-smile.gif"
     },
     {
-        "name": "ziggy/upso",
-        "format": "gif",
-        "aliases": ["upso"]
+        "name": "upso",
+        "image_filename": "ziggy/upso.gif"
     },
     {
-        "name": "ziggy/warm-smile",
-        "format": "gif",
-        "aliases": ["warm-smile"]
+        "name": "warm-smile",
+        "image_filename": "ziggy/warm-smile.gif"
     },
     {
-        "name": "ziggy/ziggy",
-        "format": "gif",
-        "aliases": ["ziggy"]
+        "name": "ziggy",
+        "image_filename": "ziggy/ziggy.gif"
     }
 ]
