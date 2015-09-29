@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = B3sEmoticons::VERSION
   spec.authors       = ["Inge Jørgensen"]
   spec.email         = ["inge@manualdesign.no"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "B3S Emoticons"
+  spec.description   = "B3S Emoticons"
   spec.homepage      = ""
   spec.license       = "MIT"
 
