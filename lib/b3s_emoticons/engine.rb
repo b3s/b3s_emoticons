@@ -18,12 +18,8 @@ module B3sEmoticons
     end
 
     # Enable asset precompilation
-    initializer :assets do |_config|
-      Rails.application.config.assets.precompile += %w[
-        emoji/*.png
-        emoji/*.gif
-        emoji/**/*.png
-      ]
+    initializer :assets do |app|
+      app.config.assets.precompile << "b3s_emoticons_manifest.js"
     end
   end
 end
