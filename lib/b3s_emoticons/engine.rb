@@ -16,14 +16,14 @@ module B3sEmoticons
         end
       end
     end
-  end
 
-  # Enable asset precompilation
-  initializer :assets do |_config|
-    Rails.application.config.assets.precompile += %w[
-      emoji/*.png
-      emoji/*.gif
-      emoji/**/*.png
-    ]
+    # Enable asset precompilation
+    initializer :assets do |_config|
+      Rails.application.config.assets.precompile += %w[
+        emoji/*.png
+        emoji/*.gif
+        emoji/**/*.png
+      ]
+    end
   end
 end
