@@ -1,18 +1,16 @@
+# frozen_string_literal: true
+
 module B3sEmoticons
   class Engine < ::Rails::Engine
     initializer "register_emoticons" do
-      emojis = File.open(root.join('db/b3s_emoticons.json'), 'r:UTF-8')  do |data|
+      emojis = File.open(root.join("db/b3s_emoticons.json"), "r:UTF-8") do |data|
         JSON.parse(data.read)
       end
 
       emojis.each do |emoji|
         Emoji.create(emoji.fetch("name")) do |char|
-          if emoji.has_key?("aliases")
-            emoji.fetch("aliases").map { |a| char.add_alias a }
-          end
-          if emoji.has_key?("image_filename")
-            char.image_filename = emoji.fetch("image_filename")
-          end
+          emoji.fetch("aliases").map { |a| char.add_alias a } if emoji.key?("aliases")
+          char.image_filename = emoji.fetch("image_filename") if emoji.key?("image_filename")
         end
       end
     end

@@ -1,4 +1,11 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in b3s_emoticons.gemspec
+source "https://rubygems.org"
+
 gemspec
+
+group :development do
+  gem "rake"
+  gem "rubocop", require: false
+  gem "rubocop-rake", require: false
+end

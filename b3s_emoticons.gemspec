@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage      = ""
   s.license       = "MIT"
 
-  s.required_ruby_version = ">= 2.7.0"
+  s.required_ruby_version = ">= 3.2.0"
 
   s.files = Dir[
     "{app,config,db,lib,vendor}/**/*",
@@ -21,6 +21,5 @@ Gem::Specification.new do |s|
     "Rakefile",
     "README.md"
   ]
-
-  s.add_development_dependency "rake"
+  s.metadata["rubygems_mfa_required"] = "true"
 end
