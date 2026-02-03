@@ -6,6 +6,9 @@ on:
       - main
       - develop
   pull_request:
+permissions:
+  contents: write
+  pull-requests: write
 jobs:
   rubocop-test:
     name: Rubocop
@@ -20,3 +23,15 @@ jobs:
           ruby-version: "3.4"
       - name: Check code
         run: bundle exec rubocop
+
+  automerge:
+    name: "Auto-merge Dependabot"
+    needs: [rubocop-test]
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enable auto-merge
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
